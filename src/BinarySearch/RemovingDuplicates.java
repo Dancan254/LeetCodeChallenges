@@ -20,7 +20,7 @@ public class RemovingDuplicates {
             return 0;
         }
 
-        int newIndex = 1;
+        int newIndex = 0;
 
         for (int i = 1; i < nums.length; i++){
             if (nums[i] != nums[i - 1]){
