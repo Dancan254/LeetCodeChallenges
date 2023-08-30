@@ -10,8 +10,8 @@ public class Main {
                 {9, 7, 89},
                 {7}
         };
-        for (int i = 0; i < arr.length; i++){
-            Arrays.sort(arr[i]);
+        for (int[] ints : arr) {
+            Arrays.sort(ints);
         }
         for (int[] nums: arr){
             System.out.println(Arrays.toString(nums));
